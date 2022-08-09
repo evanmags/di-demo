@@ -18,8 +18,6 @@ class User:
     last_name: str
     created_at: datetime
     deleted_at: Optional[datetime] = field(init=False, default=None)
-
-
 # endregion
 
 # region data layer
